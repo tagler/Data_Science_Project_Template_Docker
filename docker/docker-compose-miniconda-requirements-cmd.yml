@@ -1,0 +1,12 @@
+version: '3'
+services:
+  miniconda-requirements-cmd:
+    build:
+      context: ./miniconda-requirements-cmd
+    volumes:
+      - ../.:/project_working_directory/shared_volume
+    environment:
+      - SHELL=/bin/bash
+    working_dir: /project_working_directory/shared_volume/scripts
+    command: python script.py
+      

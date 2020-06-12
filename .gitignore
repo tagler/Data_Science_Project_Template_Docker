@@ -1,0 +1,104 @@
+# project directories
+#data/
+#reports/
+#results/
+#logs/
+#downloads/
+#temp/
+#docs/
+
+# os
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# compiled files
+__pycache__/
+*/__pycache__/*
+*.pyc
+*.py[cod]
+
+# packaging 
+.Python
+dist/
+build/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# pyinstaller and pybuilder
+*.manifest
+*.spec
+.pybuilder/
+target/
+
+# flask
+instance/
+.webassets-cache
+
+# enviorments
+*.env
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# testing  
+htmlcov/
+cover/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+*/.pytest_cache/*
+
+# type checking
+.mypy_cache/
+*/.mypy_cache/*
+.dmypy.json
+dmypy.json
+.pytype/
+
+# jupyter notebooks
+ipython_config.py
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+
+# misc
+__pypackages__/
+cython_debug/
+pip-log.txt
+pip-delete-this-directory.txt
+*.mo
+*.pot
+*.log
+*.cache
+*.orig
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+.python-version
+.spyderproject
+.spyproject
+.settings
+.vscode

@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-anaconda-install-jupyter.yml up --remove-orphans

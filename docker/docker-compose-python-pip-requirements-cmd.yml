@@ -1,0 +1,12 @@
+version: '3'
+services:
+  python-pip-requirements-cmd:
+    build:
+      context: ./python-pip-requirements-cmd
+    volumes:
+      - ../.:/project_working_directory/shared_volume
+    environment:
+      - SHELL=/bin/bash
+    working_dir: /project_working_directory/shared_volume/scripts
+    command: python script.py
+      
